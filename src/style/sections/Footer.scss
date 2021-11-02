@@ -1,0 +1,43 @@
+@import "../utils/Color.scss";
+
+.footer {
+    .content {
+        padding: 2rem 0;
+        text-align: center;
+        color: $darkBlueColor;
+        h3 {
+            font-weight: 600;
+        }
+        p {
+            font-style: italic;
+            font-weight: 400;
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            div {
+                margin: 0 1rem;
+                width: 2.5rem;
+                height: 2.5rem;
+                font-size: 1.2rem;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            .facebook {
+                background-color: $facebook;
+            }
+            .twitter {
+                background-color: $twitter;
+            }
+            .email {
+                background-color: $email;
+            }
+        }
+    }
+}

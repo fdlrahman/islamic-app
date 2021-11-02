@@ -1,0 +1,26 @@
+@import "../utils/Color.scss";
+
+.why-us {
+    background-color: $LightBlueColor;
+    padding: 4rem 0 3rem;
+    .main-container {
+        width: 55%;
+        margin: auto;
+        .titles {
+            width: 70%;
+            margin: auto;
+            h5 {
+                color: $darkBlueColor;
+                text-align: center;
+                margin: 1rem 0 2rem;
+            }
+        }
+        ul {
+            li {
+                list-style: none;
+                color: $blueColor;
+                letter-spacing: 0.1rem;
+            }
+        }
+    }
+}

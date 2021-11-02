@@ -1,0 +1,20 @@
+@import "../utils/color.scss";
+
+.feature {
+    background-color: $blueColor;
+    width: 15rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    img {
+        width: 4rem;
+    }
+    p {
+        font-weight: bold;
+        margin-top: 0.9rem;
+    }
+}

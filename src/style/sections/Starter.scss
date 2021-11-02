@@ -1,0 +1,26 @@
+@import "../utils/Color.scss";
+
+.starter {
+    background-color: $blueColor;
+    color: #fff;
+    padding: 10rem 0 13.2rem;
+    .content {
+        width: 45rem;
+        text-align: center;
+        margin: auto;
+        h1 {
+            font-size: 3rem;
+            span {
+                font-weight: bold;
+            }
+        }
+        p {
+            font-size: 1.3rem;
+            letter-spacing: 0.1rem;
+            margin-bottom: 2.5rem;
+        }
+        button {
+            margin: auto 0.5rem;
+        }
+    }
+}

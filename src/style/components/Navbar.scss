@@ -1,0 +1,41 @@
+@import "../utils/Color.scss";
+
+.navbar {
+    background-color: $blueColor;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+        }
+        margin: auto;
+        width: 83%;
+        .navbar-brand {
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-weight: 500;
+            color: $whiteColor;
+            span {
+                margin-right: 0.5rem;
+            }
+        }
+        input {
+            width: 35rem;
+            outline: none;
+            border: none;
+            border-radius: 0.3rem;
+            background-color: #f7f7f7;
+            letter-spacing: 0.2rem;
+            padding-left: 1rem;
+        }
+    }
+}

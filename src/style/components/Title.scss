@@ -1,0 +1,27 @@
+@import "../utils/Color.scss";
+
+.title {
+    h1 {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 2rem;
+        span {
+            cursor: pointer;
+            margin-left: 0.5rem;
+            text-transform: capitalize;
+            svg {
+                width: 1rem;
+            }
+        }
+    }
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+.blue {
+    color: $headingColor;
+}

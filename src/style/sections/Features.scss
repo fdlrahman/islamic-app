@@ -1,0 +1,15 @@
+@import "../utils/Color.scss";
+
+.features {
+    padding: 1rem 0 3rem;
+    .main-container {
+        width: 80%;
+        margin: auto;
+        .content {
+            margin-top: 2rem;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}

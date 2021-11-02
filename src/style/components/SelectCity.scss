@@ -1,0 +1,32 @@
+@import "../utils/Color.scss";
+
+.select-city {
+    .modal-body {
+        input {
+            width: 100%;
+            padding: 0.5rem 0.7rem;
+            border: 0.1rem solid $blueColor;
+            border-radius: 0.2rem;
+            background-color: $inputSearchColor;
+            outline: none;
+        }
+        .select {
+            height: 15rem;
+            width: 98%;
+            text-align: left;
+            font-size: 1rem;
+            margin: auto;
+            margin-top: 1.5rem;
+            overflow: auto;
+            p {
+                text-transform: capitalize !important;
+                margin-bottom: 0;
+                padding: 0.5rem;
+                cursor: pointer;
+                &:hover {
+                    background-color: $greyColor;
+                }
+            }
+        }
+    }
+}
